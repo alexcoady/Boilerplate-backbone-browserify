@@ -1,0 +1,43 @@
+{
+  "name": "boilerplate-backbone-browserify",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Alex Coady <alexandercoady@me.com>",
+  "contributors": [
+    {
+      "name": "Alex Coady",
+      "email": "alexandercoady@me.com"
+    }
+  ],
+  "main": "build/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexcoady/Boilerplate-backbone-browserify"
+  },
+  "bugs": "https://github.com/alexcoady/Boilerplate-backbone-browserify/issues",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.7.1",
+    "browserify": "9.0.4",
+    "connect-modrewrite": "^0.8.1",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-if": "^1.2.5",
+    "gulp-minify-css": "^1.1.1",
+    "gulp-preprocess": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^1.0.5",
+    "gulp-template-compile": "^1.0.0",
+    "gulp-uglify": "^1.2.0",
+    "imagemin-jpegtran": "^4.1.0",
+    "vinyl-transform": "^1.0.0",
+    "yargs": "^3.8.0"
+  },
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "backbone.radio": "^0.9.0",
+    "jquery": "^2.1.4",
+    "lodash": "^3.8.0"
+  }
+}
