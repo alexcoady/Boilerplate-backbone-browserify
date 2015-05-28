@@ -27,6 +27,7 @@ var AppView = Mn.LayoutView.extend({
   initialize: function () {
 
     console.log("| AppView -> initialize");
+    this.render();
   },
 
 
