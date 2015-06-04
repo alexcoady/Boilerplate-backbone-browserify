@@ -15,7 +15,6 @@ var AppView = Mn.LayoutView.extend({
   },
 
 
-
   el: "#App", // https://medium.com/@dan_abramov/two-weird-tricks-that-fix-react-7cf9bbdef375
 
 
@@ -43,9 +42,7 @@ var AppView = Mn.LayoutView.extend({
   handleClick: function ( ev ) {
 
     ev.preventDefault();
-
     var href = ev.currentTarget.getAttribute("href");
-
     Radio.trigger( Constants.EVENT_LINK_CLICKED, href );
   }
 
